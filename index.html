@@ -16,14 +16,6 @@
         background-color: #343a40;
     }
 
-    .fixed-top {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
     .fixed-bottom {
         position: fixed;
         right: 0;
@@ -41,6 +33,7 @@
         width: 33%;
         box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0px 3px !important;
         border-radius: 4px;
+        margin: 25px 25px;
     }
     </style>
 </head>
@@ -48,7 +41,7 @@
 <body>
     <script src="https://mps.adenin.com/components/at-app/at-app-context.js" async></script>
     <!-- Navigation -->
-    <nav class="nav pt-6 dark fixed-top"></nav>
+    <nav class="nav pt-6 dark"></nav>
     <div class="card-container">
         <include-card name="atm-pto-status"></include-card>
     </div>
