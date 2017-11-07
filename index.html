@@ -7,51 +7,53 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Half Slider - Start Bootstrap Template</title>
-
     <style type="text/css">
-        .pt-6 {
-          padding-top: 6rem;
-        }
+    .pt-6 {
+        padding-top: 6rem;
+    }
 
-        .dark {
-          background-color: #343a40;
-        }
+    .dark {
+        background-color: #343a40;
+    }
 
-        .fixed-top {
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          z-index: 1030;
-        }
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
 
-        .fixed-bottom {
-          position: fixed;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          z-index: 1030;
-        }
+    .fixed-bottom {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+    }
 
+    nav {
+        position: relative;
+    }
+
+    .card-container {
+        position: relative;
+        width: 33%;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0px 3px !important;
+        border-radius: 0px!important;
+    }
     </style>
 </head>
 
 <body>
     <script src="https://mps.adenin.com/components/at-app/at-app-context.js" async></script>
     <!-- Navigation -->
-    <nav class="pt-6 dark fixed-top">
-        <div class="container">
-        </div>
-    </nav>
-
-     <include-card name="atm-pto-status"></include-card>
-
+    <nav class="pt-6 dark fixed-top"></nav>
+    <div class="card-container">
+        <include-card name="atm-pto-status"></include-card>
+    </div>
     <!-- Footer -->
-    <footer class="pt-6 dark fixed-bottom">
-        <div class="container">
-        </div>
-        <!-- /.container -->
-    </footer>
+    <footer class="pt-6 dark fixed-bottom"></footer>
 </body>
 
 </html>
